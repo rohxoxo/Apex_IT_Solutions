@@ -1,0 +1,43 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 1050px;
+
+    >h1>span>svg{
+        height: 4vw;
+        border-radius: 50%;
+        width: 3.9vw;
+        background-color: #0BA34E;
+    }
+
+    >h1{
+        font-size: 5vw;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    >p{
+        text-align: center;
+        font-size: 10vw;
+        font-weight: 400;
+        margin-top: 3vh;
+        line-height: 2vw;
+        font-size: 1vw;
+    }
+
+    >.hero-btn{
+        align-items: center;
+    }
+}

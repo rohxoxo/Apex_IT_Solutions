@@ -1,0 +1,69 @@
+nav{
+    width: 100%;
+    color: white;
+    padding: 2vw 4vw;
+    margin-bottom: 4vw;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    z-index: 10;
+    background-color: #111;
+}
+
+.nav-part-2{
+    display: flex;
+    gap: 2vw;
+    align-items: flex-start;
+    padding: 1vh 0;
+    position: relative;
+    z-index: 10;
+
+    >.nav-elem>h4{
+        font-size: 0.8vw;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 1vh;
+    }
+    >.nav-elem>h5{
+        margin-bottom: 0.8vw;
+        display: none;
+    }
+
+    >.nav-elem> h5> span{
+        font-weight: 400;
+        font-size: 0.9vw;
+        display: inline-block;
+    }
+}
+
+.navbottom-div{
+    height: 0;
+    width: 79%;
+    position: absolute;
+    top: 100%;
+    border-bottom: 1px solid #fff;
+    z-index: 9;
+}
+
+.btn {
+    background-color: #0BA34E;
+    display: flex;
+    align-items: center;
+    padding: 14px 21px;
+    font-size: 0.85vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
+    color: white;
+}
+
+.btn svg {
+    height: 1vw;
+    margin-left: 1.2vw;
+}
+
